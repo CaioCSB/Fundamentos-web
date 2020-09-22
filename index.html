@@ -4,25 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="./index.html"> Home</a></li>
         <li><a href="./contato.html"> Contato</a></li>
     </ul>
-    <h1>Sobre o Caio</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Iure unde necessitatibus voluptas adipisci nihil, 
-        ipsam tenetur cum eum aperiam quae, doloremque ullam eveniet 
-        aspernatur deserunt. Esse voluptas in molestiae ad?
-    </p>
-    
-    <img src="./assets/img/caio1.jpg" alt="Foto de Perfil" height="300px">
+    <h1 class="center">Sobre o Caio</h1>
+    <div class="container">
+        <div class="pad">
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Iure unde necessitatibus voluptas adipisci nihil, 
+                ipsam tenetur cum eum aperiam quae, doloremque ullam eveniet 
+                aspernatur deserunt. Esse voluptas in molestiae ad?
+            </p>     
+        </div>
+        <div>
+            <img class="radius pad" src="./assets/img/caio1.jpg" alt="Foto de Perfil" height="300px" width="300px">
+        </div>
+        
+
+    </div>
     <br>
-    <h2>Um vídeo de qualidade:</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/02KzxLGcNJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2 class="center">Um vídeo de qualidade:</h2>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/x-OzspEcQG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+    <hr>
+    <footer>
+        <div class="center">
+            <a href="https://www.instagram.com/caio.bispo1999/">
+            <img class="tm pad" src="./assets/img/instagram.png" alt="Logo do Insta">
+            </a>
+            <a href="https://www.linkedin.com/in/caiocsb/" target="_blank">
+            <img class="tm pad" src="./assets/img/linkedin.png" alt="Logo do Linkeid">
+            </a>
+        </div>
+       <p class="center"> 
+           Todos os direitos reservados: Caio Cesar &copy;
+        </p>
+    </footer>
 </body>
 
 </html>
